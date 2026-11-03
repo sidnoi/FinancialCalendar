@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Calendar</title>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --text: #1c1c1a; --muted: #6b6b66;
+    --border: #e3e2dd; --accent: #2563eb; --good: #15803d; --bad: #b91c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161615; --card: #1f1f1d; --text: #ecebe6; --muted: #a3a29b;
+            --border: #34332f; --accent: #60a5fa; --good: #4ade80; --bad: #f87171; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         background: var(--bg); color: var(--text); line-height: 1.5; }
+  header { padding: 20px 24px 8px; }
+  header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+  .layout { display: grid; grid-template-columns: 240px 1fr; gap: 20px; padding: 16px 24px 32px; }
+  @media (max-width: 800px) { .layout { grid-template-columns: 1fr; padding: 12px 16px 24px; } }
+  .panel { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .panel h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted);
+              margin: 0 0 10px; font-weight: 600; }
+  .panel + .panel { margin-top: 16px; }
+  label.check { display: flex; align-items: center; gap: 8px; font-size: 14px; padding: 3px 0; cursor: pointer; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .small-btns { display: flex; gap: 6px; margin-bottom: 8px; }
+  .small-btns button { font-size: 12px; padding: 3px 8px; border: 1px solid var(--border);
+                       background: transparent; color: var(--text); border-radius: 6px; cursor: pointer; }
+  #calendar { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+  .fc { --fc-border-color: var(--border); --fc-page-bg-color: var(--card);
+        --fc-neutral-bg-color: var(--bg); --fc-list-event-hover-bg-color: var(--bg);
+        --fc-today-bg-color: rgba(37, 99, 235, .08); font-size: 13px; }
+  .fc .fc-button { background: var(--card); color: var(--text); border-color: var(--border); }
+  .fc .fc-button-primary:not(:disabled).fc-button-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .fc .fc-toolbar-title { font-size: 18px; }
+  .fc-event { cursor: pointer; }
+  #detail { margin-top: 16px; display: none; }
+  #detail h3 { margin: 0 0 4px; font-size: 16px; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-top: 10px; }
+  .stat { font-size: 13px; }
+  .stat b { display: block; font-size: 16px; }
+  h2.section { font-size: 18px; margin: 28px 0 12px; font-weight: 600; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .card h3 { margin: 0; font-size: 16px; }
+  .card .price { font-size: 22px; font-weight: 600; margin: 6px 0 2px; }
+  .card h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted);
+             margin: 16px 0 6px; font-weight: 600; }
+  .row { display: flex; justify-content: space-between; font-size: 14px; padding: 2px 0; }
+  .slider { margin: 8px 0; font-size: 13px; }
+  .slider div { display: flex; justify-content: space-between; }
+  .slider input { width: 100%; }
+  .up { color: var(--good); font-weight: 600; }
+  .down { color: var(--bad); font-weight: 600; }
+  .docs a { display: block; font-size: 14px; color: var(--accent); text-decoration: none; padding: 2px 0; }
+  .docs a:hover { text-decoration: underline; }
+  .note { font-size: 13px; color: var(--muted); }
+  footer { padding: 0 24px 32px; color: var(--muted); font-size: 12px; max-width: 900px; }
+  #error { display: none; margin: 16px 24px; padding: 12px 16px; border-radius: 8px;
+           background: rgba(185, 28, 28, .1); color: var(--bad); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Financial Calendar</h1>
+  <p>Earnings, filings and macro events for your watchlist, with simple valuation models.</p>
+</header>
+<div id="error"></div>
+
+<div class="layout">
+  <aside>
+    <div class="panel">
+      <h2>Event types</h2>
+      <div id="typeFilters"></div>
+    </div>
+    <div class="panel">
+      <h2>Watchlist</h2>
+      <div class="small-btns">
+        <button id="allTickers">All</button>
+        <button id="noTickers">None</button>
+      </div>
+      <div id="tickerFilters"></div>
+    </div>
+  </aside>
+
+  <main>
+    <div id="calendar"></div>
+    <div id="detail" class="panel"></div>
+
+    <h2 class="section">Valuations</h2>
+    <p class="note">Drag the sliders to change the DCF assumptions. Values are model outputs, not recommendations.</p>
+    <div id="cards" class="cards"></div>
+  </main>
+</div>
+
+<footer>
+  Data from SEC EDGAR, Finnhub, the Federal Reserve, BLS, BEA and FRED. Valuations are automated estimates
+  based on simplified assumptions and are for information only. Nothing on this site is investment advice.
+</footer>
+
+<script>
+const TYPES = {
+  earnings:   { label: "Earnings",   color: "#2563eb" },
+  filing:     { label: "Filings",    color: "#64748b" },
+  fomc:       { label: "FOMC",       color: "#dc2626" },
+  cpi:        { label: "CPI",        color: "#ea580c" },
+  jobs:       { label: "Jobs",       color: "#16a34a" },
+  gdp:        { label: "GDP",        color: "#9333ea" },
+  political:  { label: "Political",  color: "#0891b2" },
+  regulatory: { label: "Regulatory", color: "#ca8a04" },
+};
+
+let companies = [], allEvents = [], valuations = {}, calendar;
+const activeTypes = new Set(Object.keys(TYPES));
+const activeTickers = new Set();
+
+function fmtMoney(n) {
+  if (n === null || n === undefined) return "n/a";
+  const abs = Math.abs(n);
+  if (abs >= 1e12) return "$" + (n / 1e12).toFixed(2) + "tn";
+  if (abs >= 1e9) return "$" + (n / 1e9).toFixed(2) + "bn";
+  if (abs >= 1e6) return "$" + (n / 1e6).toFixed(1) + "m";
+  return "$" + n.toFixed(2);
+}
+function fmtPct(x, dp = 1) {
+  return x === null || x === undefined ? "n/a" : (x * 100).toFixed(dp) + "%";
+}
+function upsideHtml(value, price) {
+  if (!value || !price) return '<span class="note">n/a</span>';
+  const u = value / price - 1;
+  return `<span class="${u >= 0 ? "up" : "down"}">${u >= 0 ? "+" : ""}${(u * 100).toFixed(1)}%</span>`;
+}
+
+async function loadJson(name) {
+  const res = await fetch(`../data/${name}.json`);
+  if (!res.ok) throw new Error(`Couldn't load data/${name}.json`);
+  return res.json();
+}
+
+function filteredEvents() {
+  return allEvents
+    .filter(e => activeTypes.has(e.type))
+    .filter(e => !e.ticker || activeTickers.has(e.ticker))
+    .map(e => ({
+      title: e.title,
+      start: e.date,
+      allDay: true,
+      color: (TYPES[e.type] || { color: "#64748b" }).color,
+      extendedProps: { raw: e },
+    }));
+}
+
+function showDetail(e) {
+  const box = document.getElementById("detail");
+  const type = TYPES[e.type] ? TYPES[e.type].label : e.type;
+  let html = `<h3>${e.title}</h3><div class="meta">${e.date} · ${type}${e.timing ? " · " + e.timing : ""}</div>`;
+  if (e.type === "earnings") {
+    html += `<div class="stats">
+      <div class="stat">EPS estimate<b>${e.eps_estimate ?? "n/a"}</b></div>
+      <div class="stat">EPS actual<b>${e.eps_actual ?? "Not yet reported"}</b></div>
+      <div class="stat">Revenue estimate<b>${fmtMoney(e.revenue_estimate)}</b></div>
+      <div class="stat">Revenue actual<b>${e.revenue_actual ? fmtMoney(e.revenue_actual) : "Not yet reported"}</b></div>
+    </div>`;
+    if (e.eps_actual != null && e.eps_estimate) {
+      const surprise = e.eps_actual / e.eps_estimate - 1;
+      html += `<p class="meta">EPS surprise: <span class="${surprise >= 0 ? "up" : "down"}">${surprise >= 0 ? "+" : ""}${(surprise * 100).toFixed(1)}%</span></p>`;
+    }
+  }
+  if (e.url) html += `<p><a href="${e.url}" target="_blank" rel="noopener" style="color:var(--accent)">Open source document</a></p>`;
+  box.innerHTML = html;
+  box.style.display = "block";
+  box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function dcfPerShare(inp, growth, wacc, tg) {
+  if (!inp.fcf || inp.fcf <= 0 || !inp.shares || wacc <= tg) return null;
+  let fcf = inp.fcf, pv = 0;
+  for (let year = 1; year <= 5; year++) {
+    fcf *= 1 + growth;
+    pv += fcf / Math.pow(1 + wacc, year);
+  }
+  const terminal = fcf * (1 + tg) / (wacc - tg);
+  pv += terminal / Math.pow(1 + wacc, 5);
+  return (pv + (inp.cash || 0) - (inp.debt || 0)) / inp.shares;
+}
+
+function latestDocs(ticker) {
+  const wanted = [
+    ["Annual report", "Latest annual report (10-K)"],
+    ["Quarterly report", "Latest quarterly report (10-Q)"],
+    ["Earnings release", "Latest earnings release (8-K)"],
+  ];
+  const filings = allEvents.filter(e => e.ticker === ticker && e.type === "filing")
+                           .sort((a, b) => b.date.localeCompare(a.date));
+  return wanted.map(([key, label]) => {
+    const doc = filings.find(f => f.title.includes(key));
+    return doc ? `<a href="${doc.url}" target="_blank" rel="noopener">${label}, ${doc.date}</a>` : "";
+  }).join("");
+}
+
+function renderCards() {
+  const wrap = document.getElementById("cards");
+  wrap.innerHTML = "";
+  companies.filter(c => activeTickers.has(c.ticker)).forEach(c => {
+    const v = valuations[c.ticker];
+    if (!v) return;
+    const card = document.createElement("div");
+    card.className = "card";
+    const inp = v.inputs || {};
+    const hasDcf = v.method === "dcf_and_pe" && inp.fcf > 0 && inp.wacc;
+
+    let html = `<h3>${c.name || c.ticker} <span class="note">${c.ticker}</span></h3>
+      <div class="note">${c.sector || ""}</div>
+      <div class="price">${v.price ? "$" + v.price.toFixed(2) : "n/a"}</div>
+      <h4>Relative valuation</h4>
+      <div class="row"><span>P/E (trailing)</span><span>${v.pe ? v.pe.toFixed(1) + "x" : "n/a"}</span></div>
+      <div class="row"><span>Peer median P/E</span><span>${v.peer_median_pe ? v.peer_median_pe.toFixed(1) + "x" : "n/a"}</span></div>
+      <div class="row"><span>Implied value at peer P/E</span><span>${v.pe_implied_value ? "$" + v.pe_implied_value.toFixed(2) : "n/a"}</span></div>
+      <div class="row"><span>Versus current price</span>${upsideHtml(v.pe_implied_value, v.price)}</div>
+      <h4>Discounted cash flow</h4>`;
+
+    if (hasDcf) {
+      html += `
+      <div class="slider"><div><span>Growth (years 1 to 5)</span><span data-out="g"></span></div>
+        <input type="range" data-in="g" min="-0.05" max="0.30" step="0.005" value="${inp.growth}"></div>
+      <div class="slider"><div><span>Discount rate (WACC)</span><span data-out="w"></span></div>
+        <input type="range" data-in="w" min="0.05" max="0.15" step="0.0025" value="${inp.wacc}"></div>
+      <div class="slider"><div><span>Terminal growth</span><span data-out="t"></span></div>
+        <input type="range" data-in="t" min="0" max="0.04" step="0.0025" value="${inp.terminal_growth}"></div>
+      <div class="row"><span>Starting free cash flow</span><span>${fmtMoney(inp.fcf)}</span></div>
+      <div class="row"><span>DCF value per share</span><b data-out="value"></b></div>
+      <div class="row"><span>Versus current price</span><span data-out="upside"></span></div>
+      <div class="small-btns" style="margin-top:8px"><button data-reset>Reset to defaults</button></div>`;
+    } else {
+      html += `<p class="note">${v.method === "pe_only"
+        ? "DCF not used for banks and other financials, whose cash flows don't fit a standard model."
+        : "Not enough data for a DCF (for example, negative free cash flow)."}</p>`;
+    }
+
+    html += `<h4>Documents</h4><div class="docs">${latestDocs(c.ticker)}
+      ${c.website ? `<a href="${c.website}" target="_blank" rel="noopener">Company website and investor relations</a>` : ""}</div>`;
+    card.innerHTML = html;
+    wrap.appendChild(card);
+
+    if (hasDcf) {
+      const get = k => parseFloat(card.querySelector(`[data-in="${k}"]`).value);
+      const update = () => {
+        const g = get("g"), w = get("w"), t = get("t");
+        card.querySelector('[data-out="g"]').textContent = fmtPct(g);
+        card.querySelector('[data-out="w"]').textContent = fmtPct(w, 2);
+        card.querySelector('[data-out="t"]').textContent = fmtPct(t, 2);
+        const value = dcfPerShare(inp, g, w, t);
+        card.querySelector('[data-out="value"]').textContent = value ? "$" + value.toFixed(2) : "n/a";
+        card.querySelector('[data-out="upside"]').innerHTML = upsideHtml(value, v.price);
+      };
+      card.querySelectorAll("input[type=range]").forEach(s => s.addEventListener("input", update));
+      card.querySelector("[data-reset]").addEventListener("click", () => {
+        card.querySelector('[data-in="g"]').value = inp.growth;
+        card.querySelector('[data-in="w"]').value = inp.wacc;
+        card.querySelector('[data-in="t"]').value = inp.terminal_growth;
+        update();
+      });
+      update();
+    }
+  });
+  if (!wrap.children.length) wrap.innerHTML = '<p class="note">Select companies in the watchlist to see valuations.</p>';
+}
+
+function buildFilters() {
+  const typeBox = document.getElementById("typeFilters");
+  Object.entries(TYPES).forEach(([key, t]) => {
+    const label = document.createElement("label");
+    label.className = "check";
+    label.innerHTML = `<input type="checkbox" checked><span class="dot" style="background:${t.color}"></span>${t.label}`;
+    label.querySelector("input").addEventListener("change", ev => {
+      ev.target.checked ? activeTypes.add(key) : activeTypes.delete(key);
+      calendar.refetchEvents();
+    });
+    typeBox.appendChild(label);
+  });
+
+  const tickerBox = document.getElementById("tickerFilters");
+  companies.forEach(c => {
+    activeTickers.add(c.ticker);
+    const label = document.createElement("label");
+    label.className = "check";
+    label.innerHTML = `<input type="checkbox" checked data-ticker="${c.ticker}"><b>${c.ticker}</b>&nbsp;<span class="note">${c.name || ""}</span>`;
+    label.querySelector("input").addEventListener("change", ev => {
+      ev.target.checked ? activeTickers.add(c.ticker) : activeTickers.delete(c.ticker);
+      calendar.refetchEvents();
+      renderCards();
+    });
+    tickerBox.appendChild(label);
+  });
+
+  const setAll = on => {
+    tickerBox.querySelectorAll("input").forEach(i => {
+      i.checked = on;
+      on ? activeTickers.add(i.dataset.ticker) : activeTickers.delete(i.dataset.ticker);
+    });
+    calendar.refetchEvents();
+    renderCards();
+  };
+  document.getElementById("allTickers").addEventListener("click", () => setAll(true));
+  document.getElementById("noTickers").addEventListener("click", () => setAll(false));
+}
+
+async function init() {
+  try {
+    const [comp, filings, earnings, macro, vals] = await Promise.all(
+      ["companies", "events", "earnings", "macro", "valuations"].map(loadJson));
+    companies = comp;
+    allEvents = [...filings, ...earnings, ...macro];
+    valuations = vals;
+  } catch (err) {
+    const box = document.getElementById("error");
+    box.style.display = "block";
+    box.textContent = err.message + ". If you opened this file directly, run a local server instead (see the setup notes).";
+    return;
+  }
+
+  calendar = new FullCalendar.Calendar(document.getElementById("calendar"), {
+    initialView: window.innerWidth < 800 ? "listMonth" : "dayGridMonth",
+    headerToolbar: { left: "prev,next today", center: "title", right: "dayGridMonth,listMonth" },
+    buttonText: { today: "Today", month: "Month", list: "List" },
+    firstDay: 1,
+    height: "auto",
+    dayMaxEvents: 3,
+    events: (info, success) => success(filteredEvents()),
+    eventClick: info => { info.jsEvent.preventDefault(); showDetail(info.event.extendedProps.raw); },
+  });
+
+  buildFilters();
+  calendar.render();
+  renderCards();
+}
+
+init();
+</script>
+</body>
+</html>

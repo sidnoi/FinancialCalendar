@@ -11,13 +11,16 @@ HEADERS = {"User-Agent": os.getenv("SEC_USER_AGENT")}
 FORMS_WANTED = {"10-K": "Annual report", "10-Q": "Quarterly report", "DEF 14A": "Proxy statement"}
 
 METRICS = {
-    "revenue": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet"],
+    "revenue": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet",
+                "RevenueFromContractWithCustomerIncludingAssessedTax"],
     "operating_income": ["OperatingIncomeLoss"],
-    "net_income": ["NetIncomeLoss"],
-    "operating_cash_flow": ["NetCashProvidedByUsedInOperatingActivities"],
-    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment"],
-    "cash": ["CashAndCashEquivalentsAtCarryingValue"],
-    "long_term_debt": ["LongTermDebt", "LongTermDebtNoncurrent"],
+    "net_income": ["NetIncomeLoss", "ProfitLoss"],
+    "operating_cash_flow": ["NetCashProvidedByUsedInOperatingActivities",
+                            "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"],
+    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment", "PaymentsToAcquireProductiveAssets"],
+    "cash": ["CashAndCashEquivalentsAtCarryingValue",
+             "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"],
+    "long_term_debt": ["LongTermDebt", "LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations"],
     "diluted_eps": ["EarningsPerShareDiluted"],
 }
 BALANCE_SHEET_ITEMS = {"cash", "long_term_debt"}

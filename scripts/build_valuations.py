@@ -87,7 +87,8 @@ for c in companies:
     t = c["ticker"]
     fin = financials.get(t, {})
     price = finnhub("quote", symbol=t).get("c")
-    beta = get_metrics(t).get("beta") or 1.0
+    raw_beta = get_metrics(t).get("beta") or 1.0
+    beta = 0.67 * raw_beta + 0.33  # Blume adjustment, pulls noisy betas towards 1
     pe = get_pe(t)
 
     peers = PEER_OVERRIDES.get(t, c["peers"])
@@ -98,6 +99,10 @@ for c in companies:
     pe_value = peer_median_pe * eps if peer_median_pe and eps else None
 
     shares = fin.get("shares_outstanding")
+    if not shares:
+        profile = finnhub("stock/profile2", symbol=t)
+        if profile.get("shareOutstanding"):
+            shares = profile["shareOutstanding"] * 1e6
     cash = latest(fin.get("cash")) or 0
     debt = latest(fin.get("long_term_debt")) or 0
     ocf = latest(fin.get("operating_cash_flow"))
