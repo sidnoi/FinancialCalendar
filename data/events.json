@@ -1,0 +1,1045 @@
+[
+  {
+    "date": "2024-11-20",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm"
+  },
+  {
+    "date": "2024-11-20",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000315/nvda-20241120.htm"
+  },
+  {
+    "date": "2025-01-10",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm"
+  },
+  {
+    "date": "2025-01-22",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000003/jnj-20250122.htm"
+  },
+  {
+    "date": "2025-01-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm"
+  },
+  {
+    "date": "2025-01-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-20250129.htm"
+  },
+  {
+    "date": "2025-01-30",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000007/aapl-20250130.htm"
+  },
+  {
+    "date": "2025-01-31",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm"
+  },
+  {
+    "date": "2025-02-04",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/goog-20250204.htm"
+  },
+  {
+    "date": "2025-02-05",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+  },
+  {
+    "date": "2025-02-06",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20250206.htm"
+  },
+  {
+    "date": "2025-02-07",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+  },
+  {
+    "date": "2025-02-11",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000005/ko-20250211.htm"
+  },
+  {
+    "date": "2025-02-13",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm"
+  },
+  {
+    "date": "2025-02-20",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm"
+  },
+  {
+    "date": "2025-02-26",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+  },
+  {
+    "date": "2025-02-26",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/nvda-20250226.htm"
+  },
+  {
+    "date": "2025-03-12",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000099/jnj-20250311.htm"
+  },
+  {
+    "date": "2025-03-17",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm"
+  },
+  {
+    "date": "2025-04-10",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm"
+  },
+  {
+    "date": "2025-04-15",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000110/jnj-20250415.htm"
+  },
+  {
+    "date": "2025-04-23",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000119/jnj-20250330.htm"
+  },
+  {
+    "date": "2025-04-24",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000040/goog-20250423.htm"
+  },
+  {
+    "date": "2025-04-25",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm"
+  },
+  {
+    "date": "2025-04-25",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm"
+  },
+  {
+    "date": "2025-04-29",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000024/ko-20250429.htm"
+  },
+  {
+    "date": "2025-04-30",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm"
+  },
+  {
+    "date": "2025-04-30",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-20250430.htm"
+  },
+  {
+    "date": "2025-05-01",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000055/aapl-20250501.htm"
+  },
+  {
+    "date": "2025-05-01",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000034/amzn-20250501.htm"
+  },
+  {
+    "date": "2025-05-01",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm"
+  },
+  {
+    "date": "2025-05-02",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm"
+  },
+  {
+    "date": "2025-05-02",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
+  },
+  {
+    "date": "2025-05-13",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm"
+  },
+  {
+    "date": "2025-05-28",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm"
+  },
+  {
+    "date": "2025-05-28",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/nvda-20250528.htm"
+  },
+  {
+    "date": "2025-07-16",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000170/jnj-20250716.htm"
+  },
+  {
+    "date": "2025-07-22",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000054/ko-20250722.htm"
+  },
+  {
+    "date": "2025-07-23",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/goog-20250723.htm"
+  },
+  {
+    "date": "2025-07-24",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm"
+  },
+  {
+    "date": "2025-07-24",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000178/jnj-20250629.htm"
+  },
+  {
+    "date": "2025-07-24",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000061/ko-20250627.htm"
+  },
+  {
+    "date": "2025-07-30",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+  },
+  {
+    "date": "2025-07-30",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-20250730.htm"
+  },
+  {
+    "date": "2025-07-31",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000071/aapl-20250731.htm"
+  },
+  {
+    "date": "2025-07-31",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000084/amzn-20250731.htm"
+  },
+  {
+    "date": "2025-08-01",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm"
+  },
+  {
+    "date": "2025-08-01",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm"
+  },
+  {
+    "date": "2025-08-27",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm"
+  },
+  {
+    "date": "2025-08-27",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm"
+  },
+  {
+    "date": "2025-10-14",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000201/jnj-20251014.htm"
+  },
+  {
+    "date": "2025-10-21",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm"
+  },
+  {
+    "date": "2025-10-21",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025045577/ko-20251021.htm"
+  },
+  {
+    "date": "2025-10-22",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000209/jnj-20250928.htm"
+  },
+  {
+    "date": "2025-10-23",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025046054/ko-20250926.htm"
+  },
+  {
+    "date": "2025-10-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm"
+  },
+  {
+    "date": "2025-10-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm"
+  },
+  {
+    "date": "2025-10-29",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/goog-20251029.htm"
+  },
+  {
+    "date": "2025-10-30",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm"
+  },
+  {
+    "date": "2025-10-30",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm"
+  },
+  {
+    "date": "2025-10-30",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20251030.htm"
+  },
+  {
+    "date": "2025-10-31",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+  },
+  {
+    "date": "2025-10-31",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm"
+  },
+  {
+    "date": "2025-10-31",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/gs-20250930.htm"
+  },
+  {
+    "date": "2025-11-04",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm"
+  },
+  {
+    "date": "2025-11-19",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm"
+  },
+  {
+    "date": "2025-11-19",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm"
+  },
+  {
+    "date": "2026-01-08",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm"
+  },
+  {
+    "date": "2026-01-08",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000004/gs-20260107.htm"
+  },
+  {
+    "date": "2026-01-13",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026001902/jpm-20260113.htm"
+  },
+  {
+    "date": "2026-01-15",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000008/gs-20260115.htm"
+  },
+  {
+    "date": "2026-01-21",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000002/jnj-20260121.htm"
+  },
+  {
+    "date": "2026-01-28",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm"
+  },
+  {
+    "date": "2026-01-28",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm"
+  },
+  {
+    "date": "2026-01-29",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm"
+  },
+  {
+    "date": "2026-01-30",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm"
+  },
+  {
+    "date": "2026-02-04",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/goog-20260204.htm"
+  },
+  {
+    "date": "2026-02-05",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"
+  },
+  {
+    "date": "2026-02-05",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20260205.htm"
+  },
+  {
+    "date": "2026-02-06",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+  },
+  {
+    "date": "2026-02-10",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026006642/ko-20260210.htm"
+  },
+  {
+    "date": "2026-02-11",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm"
+  },
+  {
+    "date": "2026-02-13",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  {
+    "date": "2026-02-20",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm"
+  },
+  {
+    "date": "2026-02-25",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+    "date": "2026-02-25",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm"
+  },
+  {
+    "date": "2026-02-25",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm"
+  },
+  {
+    "date": "2026-03-11",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000063/jnj-20260309.htm"
+  },
+  {
+    "date": "2026-03-16",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm"
+  },
+  {
+    "date": "2026-03-20",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526117433/gs-20260319.htm"
+  },
+  {
+    "date": "2026-04-06",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm"
+  },
+  {
+    "date": "2026-04-09",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm"
+  },
+  {
+    "date": "2026-04-13",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000096/gs-20260413.htm"
+  },
+  {
+    "date": "2026-04-14",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026024990/jpm-20260414.htm"
+  },
+  {
+    "date": "2026-04-14",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000076/jnj-20260414.htm"
+  },
+  {
+    "date": "2026-04-22",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000087/jnj-20260329.htm"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026027723/ko-20260428.htm"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/goog-20260429.htm"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260429.htm"
+  },
+  {
+    "date": "2026-04-30",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm"
+  },
+  {
+    "date": "2026-04-30",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm"
+  },
+  {
+    "date": "2026-04-30",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm"
+  },
+  {
+    "date": "2026-04-30",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026028802/ko-20260403.htm"
+  },
+  {
+    "date": "2026-05-01",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm"
+  },
+  {
+    "date": "2026-05-01",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026029344/jpm-20260331.htm"
+  },
+  {
+    "date": "2026-05-01",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000118/gs-20260331.htm"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm"
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/jpm-20260714.htm"
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000294/gs-20260714.htm"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000146/jnj-20260715.htm"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm"
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000153/jnj-20260628.htm"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026049922/ko-20260728.htm"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026050503/ko-20260703.htm"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000006/xom-20260731.htm"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000297/gs-20260630.htm"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/xom-20260630.htm"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+  },
+  {
+    "date": "2026-08-26",
+    "ticker": "NVDA",
+    "type": "filing",
+    "title": "NVDA Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm"
+  },
+  {
+    "date": "2026-10-13",
+    "ticker": "JPM",
+    "type": "filing",
+    "title": "JPM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm"
+  },
+  {
+    "date": "2026-10-13",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/gs-20261013.htm"
+  },
+  {
+    "date": "2026-10-13",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/jnj-20261013.htm"
+  },
+  {
+    "date": "2026-10-21",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm"
+  },
+  {
+    "date": "2026-10-21",
+    "ticker": "JNJ",
+    "type": "filing",
+    "title": "JNJ Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm"
+  },
+  {
+    "date": "2026-10-27",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067403/ko-20261027.htm"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "MSFT",
+    "type": "filing",
+    "title": "MSFT Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm"
+  },
+  {
+    "date": "2026-10-28",
+    "ticker": "KO",
+    "type": "filing",
+    "title": "KO Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "GOOGL",
+    "type": "filing",
+    "title": "GOOGL Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "AMZN",
+    "type": "filing",
+    "title": "AMZN Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+  },
+  {
+    "date": "2026-10-30",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/xom-20261030.htm"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "AAPL",
+    "type": "filing",
+    "title": "AAPL Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "GS",
+    "type": "filing",
+    "title": "GS Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm"
+  },
+  {
+    "date": "2026-11-02",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/xom-20260930.htm"
+  }
+]

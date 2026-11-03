@@ -1,0 +1,140 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "cik": "0000320193",
+    "website": "https://www.apple.com/",
+    "peers": [
+      "DELL",
+      "SNDK",
+      "WDC",
+      "HPE",
+      "P"
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corporation",
+    "sector": "Technology",
+    "cik": "0000789019",
+    "website": "https://www.microsoft.com/en-in/",
+    "peers": [
+      "ORCL",
+      "PANW",
+      "CRWD",
+      "NOW",
+      "FTNT"
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc.",
+    "sector": "Media",
+    "cik": "0001652044",
+    "website": "https://abc.xyz/",
+    "peers": [
+      "META",
+      "RDDT",
+      "PINS",
+      "MTCH",
+      "SNAP"
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc",
+    "sector": "Retail",
+    "cik": "0001018724",
+    "website": "https://www.amazon.com/",
+    "peers": [
+      "EBAY",
+      "CPNG",
+      "ETSY",
+      "M",
+      "OLLI"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "sector": "Semiconductors",
+    "cik": "0001045810",
+    "website": "https://www.nvidia.com",
+    "peers": [
+      "AVGO",
+      "MU",
+      "AMD",
+      "INTC",
+      "TXN"
+    ]
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "sector": "Banking",
+    "cik": "0000019617",
+    "website": "https://www.jpmorganchase.com",
+    "peers": [
+      "BAC",
+      "WFC",
+      "C",
+      "USB",
+      "PNC"
+    ]
+  },
+  {
+    "ticker": "GS",
+    "name": "The Goldman Sachs Group, Inc.",
+    "sector": "Financial Services",
+    "cik": "0000886982",
+    "website": "https://www.goldmansachs.com/",
+    "peers": [
+      "MS",
+      "SCHW",
+      "IBKR",
+      "HOOD",
+      "RJF"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxonmobil Holdings Corp",
+    "sector": "Energy",
+    "cik": "0002115436",
+    "website": "",
+    "peers": [
+      "CVX",
+      "OXY",
+      "UNTC"
+    ]
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "sector": "Pharmaceuticals",
+    "cik": "0000200406",
+    "website": "https://www.jnj.com/",
+    "peers": [
+      "LLY",
+      "MRK",
+      "PFE",
+      "BMY",
+      "RPRX"
+    ]
+  },
+  {
+    "ticker": "KO",
+    "name": "Coca-Cola Co",
+    "sector": "Beverages",
+    "cik": "0000021344",
+    "website": "https://www.coca-colacompany.com/",
+    "peers": [
+      "PEP",
+      "MNST",
+      "KDP",
+      "COKE",
+      "CELH"
+    ]
+  }
+]
