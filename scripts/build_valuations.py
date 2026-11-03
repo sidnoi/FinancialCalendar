@@ -18,6 +18,7 @@ FINANCIAL_SECTORS = ("bank", "financial", "insurance")
 PEER_OVERRIDES = {
     "AAPL": ["MSFT", "GOOGL", "AMZN", "META"],
     "MSFT": ["AAPL", "GOOGL", "AMZN", "ORCL"],
+    "XOM": ["CVX", "COP", "SHEL", "TTE"],
 }
 
 

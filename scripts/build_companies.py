@@ -9,6 +9,9 @@ KEY = os.getenv("FINNHUB_API_KEY")
 SEC_HEADERS = {"User-Agent": os.getenv("SEC_USER_AGENT")}
 
 TICKERS = ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "JPM", "GS", "XOM", "JNJ", "KO"]
+CIK_OVERRIDES = {
+    "XOM": "0000034088",  # ticker file points to the new holding company, which has no 10-K history yet
+}
 
 sec_map = requests.get("https://www.sec.gov/files/company_tickers.json", headers=SEC_HEADERS).json()
 cik_lookup = {row["ticker"]: str(row["cik_str"]).zfill(10) for row in sec_map.values()}
@@ -24,7 +27,7 @@ for ticker in TICKERS:
         "ticker": ticker,
         "name": profile.get("name"),
         "sector": profile.get("finnhubIndustry"),
-        "cik": cik_lookup.get(ticker),
+        "cik": CIK_OVERRIDES.get(ticker, cik_lookup.get(ticker)),
         "website": profile.get("weburl"),
         "peers": [p for p in peers if p != ticker][:5],
     })

@@ -1,5 +1,12 @@
 [
   {
+    "date": "2024-11-04",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408824000068/xom-20240930.htm"
+  },
+  {
     "date": "2024-11-20",
     "ticker": "NVDA",
     "type": "filing",
@@ -56,6 +63,13 @@
     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm"
   },
   {
+    "date": "2025-01-31",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000006/xom-20250131.htm"
+  },
+  {
     "date": "2025-02-04",
     "ticker": "GOOGL",
     "type": "filing",
@@ -98,6 +112,13 @@
     "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm"
   },
   {
+    "date": "2025-02-19",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000010/xom-20241231.htm"
+  },
+  {
     "date": "2025-02-20",
     "ticker": "KO",
     "type": "filing",
@@ -131,6 +152,13 @@
     "type": "filing",
     "title": "KO Proxy statement (DEF 14A)",
     "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm"
+  },
+  {
+    "date": "2025-04-07",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000119312525073986/d895092ddef14a.htm"
   },
   {
     "date": "2025-04-10",
@@ -229,6 +257,20 @@
     "type": "filing",
     "title": "AMZN Quarterly report (10-Q)",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
+  },
+  {
+    "date": "2025-05-02",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000022/xom-20250502.htm"
+  },
+  {
+    "date": "2025-05-05",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000024/xom-20250331.htm"
   },
   {
     "date": "2025-05-13",
@@ -334,6 +376,20 @@
     "type": "filing",
     "title": "AMZN Quarterly report (10-Q)",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm"
+  },
+  {
+    "date": "2025-08-01",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000040/xom-20250801.htm"
+  },
+  {
+    "date": "2025-08-04",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000042/xom-20250630.htm"
   },
   {
     "date": "2025-08-27",
@@ -448,6 +504,20 @@
     "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/gs-20250930.htm"
   },
   {
+    "date": "2025-10-31",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000059/xom-20251031.htm"
+  },
+  {
+    "date": "2025-11-03",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408825000061/xom-20250930.htm"
+  },
+  {
     "date": "2025-11-04",
     "ticker": "JPM",
     "type": "filing",
@@ -532,6 +602,13 @@
     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm"
   },
   {
+    "date": "2026-01-30",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000033/xom-20260130.htm"
+  },
+  {
     "date": "2026-02-04",
     "ticker": "GOOGL",
     "type": "filing",
@@ -579,6 +656,13 @@
     "type": "filing",
     "title": "JPM Annual report (10-K)",
     "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  {
+    "date": "2026-02-18",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Annual report (10-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000045/xom-20251231.htm"
   },
   {
     "date": "2026-02-20",
@@ -635,6 +719,13 @@
     "type": "filing",
     "title": "JPM Proxy statement (DEF 14A)",
     "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm"
+  },
+  {
+    "date": "2026-04-08",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Proxy statement (DEF 14A)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000119312526147614/d16317ddef14a.htm"
   },
   {
     "date": "2026-04-09",
@@ -763,6 +854,20 @@
     "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000118/gs-20260331.htm"
   },
   {
+    "date": "2026-05-01",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Earnings release (8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/xom-20260501.htm"
+  },
+  {
+    "date": "2026-05-04",
+    "ticker": "XOM",
+    "type": "filing",
+    "title": "XOM Quarterly report (10-Q)",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000067/xom-20260331.htm"
+  },
+  {
     "date": "2026-05-12",
     "ticker": "NVDA",
     "type": "filing",
@@ -882,13 +987,6 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
   },
   {
-    "date": "2026-07-31",
-    "ticker": "XOM",
-    "type": "filing",
-    "title": "XOM Earnings release (8-K)",
-    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000006/xom-20260731.htm"
-  },
-  {
     "date": "2026-08-03",
     "ticker": "GS",
     "type": "filing",
@@ -900,7 +998,7 @@
     "ticker": "XOM",
     "type": "filing",
     "title": "XOM Quarterly report (10-Q)",
-    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/xom-20260630.htm"
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000093/xom-20260630.htm"
   },
   {
     "date": "2026-08-06",
@@ -1015,13 +1113,6 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
   },
   {
-    "date": "2026-10-30",
-    "ticker": "XOM",
-    "type": "filing",
-    "title": "XOM Earnings release (8-K)",
-    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/xom-20261030.htm"
-  },
-  {
     "date": "2026-11-02",
     "ticker": "AAPL",
     "type": "filing",
@@ -1034,12 +1125,5 @@
     "type": "filing",
     "title": "GS Quarterly report (10-Q)",
     "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm"
-  },
-  {
-    "date": "2026-11-02",
-    "ticker": "XOM",
-    "type": "filing",
-    "title": "XOM Quarterly report (10-Q)",
-    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/xom-20260930.htm"
   }
 ]
