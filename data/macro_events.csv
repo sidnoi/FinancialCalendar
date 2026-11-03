@@ -1,0 +1,22 @@
+date,type,title,url
+2026-11-03,political,US midterm elections,
+2026-11-06,jobs,Jobs report (October),https://www.bls.gov/schedule/news_release/empsit.htm
+2026-11-10,cpi,CPI inflation (October),https://www.bls.gov/schedule/news_release/cpi.htm
+2026-11-25,gdp,GDP Q3 second estimate,https://www.bea.gov/news/schedule
+2026-12-04,jobs,Jobs report (November),https://www.bls.gov/schedule/news_release/empsit.htm
+2026-12-09,fomc,FOMC rate decision with projections,https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+2026-12-10,cpi,CPI inflation (November),https://www.bls.gov/schedule/news_release/cpi.htm
+2026-12-23,gdp,GDP Q3 third estimate,https://www.bea.gov/news/schedule
+2027-01-03,political,New Congress sworn in,
+2027-01-08,jobs,Jobs report (December),https://www.bls.gov/schedule/news_release/empsit.htm
+2027-01-13,cpi,CPI inflation (December),https://www.bls.gov/schedule/news_release/cpi.htm
+2027-01-27,fomc,FOMC rate decision,https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+2027-02-05,jobs,Jobs report (January),https://www.bls.gov/schedule/news_release/empsit.htm
+2027-02-11,cpi,CPI inflation (January),https://www.bls.gov/schedule/news_release/cpi.htm
+2027-03-05,jobs,Jobs report (February),https://www.bls.gov/schedule/news_release/empsit.htm
+2027-03-10,cpi,CPI inflation (February),https://www.bls.gov/schedule/news_release/cpi.htm
+2027-03-17,fomc,FOMC rate decision with projections,https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+2027-04-02,jobs,Jobs report (March),https://www.bls.gov/schedule/news_release/empsit.htm
+2027-04-13,cpi,CPI inflation (March),https://www.bls.gov/schedule/news_release/cpi.htm
+2027-04-28,fomc,FOMC rate decision,https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+2027-04-29,gdp,GDP Q1 advance estimate,https://www.bea.gov/news/schedule

@@ -1,0 +1,149 @@
+[
+  {
+    "date": "2026-11-03",
+    "ticker": null,
+    "type": "political",
+    "title": "US midterm elections",
+    "url": null
+  },
+  {
+    "date": "2026-11-06",
+    "ticker": null,
+    "type": "jobs",
+    "title": "Jobs report (October)",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "date": "2026-11-10",
+    "ticker": null,
+    "type": "cpi",
+    "title": "CPI inflation (October)",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "date": "2026-11-25",
+    "ticker": null,
+    "type": "gdp",
+    "title": "GDP Q3 second estimate",
+    "url": "https://www.bea.gov/news/schedule"
+  },
+  {
+    "date": "2026-12-04",
+    "ticker": null,
+    "type": "jobs",
+    "title": "Jobs report (November)",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "date": "2026-12-09",
+    "ticker": null,
+    "type": "fomc",
+    "title": "FOMC rate decision with projections",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+    "date": "2026-12-10",
+    "ticker": null,
+    "type": "cpi",
+    "title": "CPI inflation (November)",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "date": "2026-12-23",
+    "ticker": null,
+    "type": "gdp",
+    "title": "GDP Q3 third estimate",
+    "url": "https://www.bea.gov/news/schedule"
+  },
+  {
+    "date": "2027-01-03",
+    "ticker": null,
+    "type": "political",
+    "title": "New Congress sworn in",
+    "url": null
+  },
+  {
+    "date": "2027-01-08",
+    "ticker": null,
+    "type": "jobs",
+    "title": "Jobs report (December)",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "date": "2027-01-13",
+    "ticker": null,
+    "type": "cpi",
+    "title": "CPI inflation (December)",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "date": "2027-01-27",
+    "ticker": null,
+    "type": "fomc",
+    "title": "FOMC rate decision",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+    "date": "2027-02-05",
+    "ticker": null,
+    "type": "jobs",
+    "title": "Jobs report (January)",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "date": "2027-02-11",
+    "ticker": null,
+    "type": "cpi",
+    "title": "CPI inflation (January)",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "date": "2027-03-05",
+    "ticker": null,
+    "type": "jobs",
+    "title": "Jobs report (February)",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "date": "2027-03-10",
+    "ticker": null,
+    "type": "cpi",
+    "title": "CPI inflation (February)",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "date": "2027-03-17",
+    "ticker": null,
+    "type": "fomc",
+    "title": "FOMC rate decision with projections",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+    "date": "2027-04-02",
+    "ticker": null,
+    "type": "jobs",
+    "title": "Jobs report (March)",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "date": "2027-04-13",
+    "ticker": null,
+    "type": "cpi",
+    "title": "CPI inflation (March)",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "date": "2027-04-28",
+    "ticker": null,
+    "type": "fomc",
+    "title": "FOMC rate decision",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+    "date": "2027-04-29",
+    "ticker": null,
+    "type": "gdp",
+    "title": "GDP Q1 advance estimate",
+    "url": "https://www.bea.gov/news/schedule"
+  }
+]
