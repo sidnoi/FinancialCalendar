@@ -75,7 +75,13 @@ def get_financials(cik):
         result[metric] = annual_values(facts, tags, unit, metric in BALANCE_SHEET_ITEMS)
 
     shares = facts["facts"].get("dei", {}).get("EntityCommonStockSharesOutstanding", {}).get("units", {}).get("shares", [])
-    result["shares_outstanding"] = max(shares, key=lambda r: r["filed"])["val"] if shares else None
+    if shares:
+        latest_filed = max(r["filed"] for r in shares)
+        latest_end = max(r["end"] for r in shares if r["filed"] == latest_filed)
+        result["shares_outstanding"] = sum(r["val"] for r in shares
+                                           if r["filed"] == latest_filed and r["end"] == latest_end)
+    else:
+        result["shares_outstanding"] = None
     return result
 
 

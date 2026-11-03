@@ -1,0 +1,212 @@
+{
+  "AAPL": {
+    "price": 338.32,
+    "pe": 38.1964,
+    "peer_median_pe": 20.063299999999998,
+    "pe_implied_value": 177.71,
+    "pe_upside": -0.4747,
+    "dcf_value": 87.66,
+    "dcf_upside": -0.7409,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": 98767000000,
+      "growth": 0.03275991627577457,
+      "wacc": 0.10341561687227077,
+      "terminal_growth": 0.025,
+      "cash": 35934000000,
+      "debt": 90678000000,
+      "shares": 14594180000,
+      "beta": 1.0996103,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "MSFT": {
+    "price": 507.12,
+    "pe": 27.1737,
+    "peer_median_pe": 20.059199999999997,
+    "pe_implied_value": 374.35,
+    "pe_upside": -0.2618,
+    "dcf_value": 188.64,
+    "dcf_upside": -0.628,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": 66987000000,
+      "growth": 0.1374114735301586,
+      "wacc": 0.10163546431472607,
+      "terminal_growth": 0.025,
+      "cash": 20935000000,
+      "debt": 40294000000,
+      "shares": 7426194552,
+      "beta": 1.0555713,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "GOOGL": {
+    "price": 278.99,
+    "pe": 14.7328,
+    "peer_median_pe": 20.575850000000003,
+    "pe_implied_value": 389.64,
+    "pe_upside": 0.3966,
+    "dcf_value": null,
+    "dcf_upside": null,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": null,
+      "growth": null,
+      "wacc": null,
+      "terminal_growth": 0.025,
+      "cash": 30708000000,
+      "debt": 49085000000,
+      "shares": null,
+      "beta": 1.2354851,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "AMZN": {
+    "price": 245.63,
+    "pe": 19.2351,
+    "peer_median_pe": 21.9296,
+    "pe_implied_value": 280.04,
+    "pe_upside": 0.1401,
+    "dcf_value": 182.4,
+    "dcf_upside": -0.2574,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": 132777000000,
+      "growth": 0.11143723551067208,
+      "wacc": 0.12338500883576686,
+      "terminal_growth": 0.025,
+      "cash": 86810000000,
+      "debt": 68836000000,
+      "shares": 10813138306,
+      "beta": 1.5172843,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "NVDA": {
+    "price": 202.06,
+    "pe": 25.5695,
+    "peer_median_pe": 38.6474,
+    "pe_implied_value": 305.41,
+    "pe_upside": 0.5115,
+    "dcf_value": 50.55,
+    "dcf_upside": -0.7498,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": 102579265000,
+      "growth": 0.15,
+      "wacc": 0.1630090079387239,
+      "terminal_growth": 0.025,
+      "cash": 10605000000,
+      "debt": 8468000000,
+      "shares": 24100000000,
+      "beta": 2.27608,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "JPM": {
+    "price": 340.58,
+    "pe": 13.741,
+    "peer_median_pe": 11.2111,
+    "pe_implied_value": 277.87,
+    "pe_upside": -0.1841,
+    "dcf_value": null,
+    "dcf_upside": null,
+    "method": "pe_only",
+    "inputs": {
+      "fcf": null,
+      "growth": null,
+      "wacc": null,
+      "terminal_growth": 0.025,
+      "cash": 278793000000,
+      "debt": 267889000000,
+      "shares": 2658186195,
+      "beta": 1.0343404,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "GS": {
+    "price": 898.72,
+    "pe": 11.7492,
+    "peer_median_pe": 14.45175,
+    "pe_implied_value": 1105.44,
+    "pe_upside": 0.23,
+    "dcf_value": null,
+    "dcf_upside": null,
+    "method": "pe_only",
+    "inputs": {
+      "fcf": null,
+      "growth": null,
+      "wacc": null,
+      "terminal_growth": 0.025,
+      "cash": 164259000000,
+      "debt": 236027000000,
+      "shares": 288434583,
+      "beta": 1.2933455,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "XOM": {
+    "price": 179.67,
+    "pe": 18.425,
+    "peer_median_pe": 8.4392,
+    "pe_implied_value": 82.29,
+    "pe_upside": -0.542,
+    "dcf_value": null,
+    "dcf_upside": null,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": null,
+      "growth": null,
+      "wacc": null,
+      "terminal_growth": 0.025,
+      "cash": 0,
+      "debt": 0,
+      "shares": 4079222444,
+      "beta": 0.15205246,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "JNJ": {
+    "price": 270.56,
+    "pe": 40.2284,
+    "peer_median_pe": 43.655,
+    "pe_implied_value": 293.61,
+    "pe_upside": 0.0852,
+    "dcf_value": 263.76,
+    "dcf_upside": -0.0251,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": 19698000000,
+      "growth": 0.045817259042368,
+      "wacc": 0.058792802076982016,
+      "terminal_growth": 0.025,
+      "cash": 19709000000,
+      "debt": 41438000000,
+      "shares": 2407310266,
+      "beta": 0.1979296,
+      "risk_free": 0.049400000000000006
+    }
+  },
+  "KO": {
+    "price": 95.83,
+    "pe": 27.6658,
+    "peer_median_pe": 35.1126,
+    "pe_implied_value": 121.62,
+    "pe_upside": 0.2692,
+    "dcf_value": 32.53,
+    "dcf_upside": -0.6606,
+    "method": "dcf_and_pe",
+    "inputs": {
+      "fcf": 5296000000,
+      "growth": 0.05529857762651691,
+      "wacc": 0.06221107914317182,
+      "terminal_growth": 0.025,
+      "cash": 10270000000,
+      "debt": 37507000000,
+      "shares": 4301902335,
+      "beta": 0.2768471,
+      "risk_free": 0.049400000000000006
+    }
+  }
+}
